@@ -1,9 +1,18 @@
-import { Component } from '@angular/core';
+
+import { Component, Input } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-card',
-  styleUrl: './card.css',
+  standalone: true,
+  imports: [],
   templateUrl: './card.html',
+  styleUrl: './card.css'
 })
-export class Card {}
+export class CardComponent {
+
+  @Input() imagePathCard: string = '';
+  @Input() tituloCard: string = '';
+  @Input() textoCorpo: string = '';
+  @Input() textoBotao: string = '';
+
+}
