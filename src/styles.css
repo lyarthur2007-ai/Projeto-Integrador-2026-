@@ -9,3 +9,12 @@ body {
   background-color: #080816;
   color: #ffffff;
 }
+
+/* Define o fundo padrão da página como branco e a cor do texto escura para legibilidade */
+body {
+  background-color: #ffffff;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}

@@ -74,3 +74,17 @@
 .bg-content {
   background-color: #0b0b1a; /* Fundo contínuo combinando com o hero */
 }
+
+.hero-container {
+  background-color: #ffffff; /* Fundo branco limpo */
+  color: #212529;            /* Texto escuro para combinar */
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+}
+
+/* Se quiseres ajustar os textos que antes eram brancos para escuros */
+.hero-container h1, 
+.hero-container p {
+  color: #212529 !important;
+}
