@@ -1,4 +1,4 @@
-.menu-nexus {
+/*.menu-nexus {
   background-color: rgba(8, 8, 22, 0.96);
   border-bottom: 1px solid #39206f;
 }
@@ -13,4 +13,26 @@
 
 .nav-link.active {
   color: #45eaff !important;
+}*/
+
+.menu-ecogestao {
+  background: linear-gradient(135deg, #080816, #160b0a, #2b110e);
+  border-bottom: 1px solid #d93829;
+}
+
+.text-orange {
+  color: #ff6b35;
+  text-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ff8c42 !important;
 }

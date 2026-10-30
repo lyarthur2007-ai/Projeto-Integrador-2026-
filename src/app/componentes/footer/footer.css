@@ -1,4 +1,14 @@
-footer {
+/*footer {
   background-color: #080812;
   border-top: 1px solid #39206f;
+}*/
+
+.footer-ecogestao {
+  background: linear-gradient(135deg, #2b110e, #160b0a, #080816);
+  border-top: 1px solid #d93829;
+}
+
+.text-orange {
+  color: #ff6b35;
+  text-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
 }

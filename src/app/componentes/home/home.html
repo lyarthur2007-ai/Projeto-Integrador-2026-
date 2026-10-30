@@ -1,154 +1,119 @@
 <!-- HERO -->
 <section class="hero py-5">
-
   <div class="container py-4">
-
     <div class="row align-items-center">
-
       <div class="col-lg-7">
 
-        <span class="badge text-bg-info mb-3">
-          🔥 TRENDING NOW
+        <span class="badge badge-custom mb-3">
+          GESTÃO INTELIGENTE DE RECURSOS
         </span>
 
         <h2 class="display-3 fw-bold text-white">
-          Seu universo
-          <span class="text-info">
-            geek
+          O controle do seu consumo
+          <span class="text-orange">
+            começa aqui.
           </span>
-          começa aqui.
         </h2>
 
         <p class="lead text-secondary">
-          Games, animes, filmes e séries reunidos em um
-          único universo.
+          Água, gás e energia reunidos em um único sistema para facilitar a sua gestão e economia.
         </p>
 
         <div class="d-flex gap-2 flex-wrap">
-
-          <button class="btn btn-info btn-lg">
-            Explorar agora
-          </button>
-
-          <button class="btn btn-outline-light btn-lg">
-            Ver novidades
-          </button>
-
+          <a routerLink="/calculos" class="btn btn-primary-custom btn-lg">
+            Fazer Cálculos
+          </a>
+          <a routerLink="/login" class="btn btn-outline-light btn-lg">
+            Fazer Login
+          </a>
         </div>
 
       </div>
-
     </div>
-
   </div>
-
 </section>
 
-
-<!-- CONTEÚDO -->
-<section class="py-5">
-
+<!-- CONTEÚDO / RECURSOS -->
+<section class="py-5 bg-content">
   <div class="container">
 
     <div class="mb-4">
-
-      <small class="text-info fw-bold">
-        NEXUS PICKS
+      <small class="text-orange fw-bold">
+        PAINEL DE CONTROLO
       </small>
 
       <h2 class="text-white fw-bold">
-        🔥 Em alta
+        Módulos do Sistema
       </h2>
 
       <p class="text-secondary">
-        Confira alguns universos que estão dominando
-        games e entretenimento.
+        Selecione o recurso que deseja monitorar, calcular ou gerir.
       </p>
-
     </div>
-
 
     <div class="row g-4">
 
-      <!-- CARD 1 -->
+      <!-- CARD 1: ÁGUA -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/fortnite.jpg"
-          tituloCard="Fortnite"
-          textoCorpo="Battle Royale, eventos, skins e um universo que nunca para de mudar."
-          textoBotao="Entrar no Battle">
+          imagePathCard="assets/images/agua.jpg"
+          tituloCard="Consumo de Água"
+          textoCorpo="Monitore o gasto diário e calcule estimativas de consumo e tarifas de água."
+          textoBotao="Calcular Água">
         </app-card>
-
       </div>
 
-
-      <!-- CARD 2 -->
+      <!-- CARD 2: GÁS -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/roblox.jpg"
-          tituloCard="Roblox"
-          textoCorpo="Milhões de experiências criadas pela comunidade em um universo praticamente infinito."
-          textoBotao="Explorar mundos">
+          imagePathCard="assets/images/gas.jpg"
+          tituloCard="Consumo de Gás"
+          textoCorpo="Controle o uso de gás com foco em segurança, estimativas e economia."
+          textoBotao="Gerir Gás">
         </app-card>
-
       </div>
 
-
-      <!-- CARD 3 -->
+      <!-- CARD 3: ENERGIA -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/minecraft.jpg"
-          tituloCard="Minecraft"
-          textoCorpo="Construa, sobreviva e transforme blocos em mundos completamente novos."
-          textoBotao="Começar aventura">
+          imagePathCard="assets/images/energia.jpg"
+          tituloCard="Energia Elétrica"
+          textoCorpo="Acompanhe estatísticas em kWh e otimize o gasto de energia da sua casa."
+          textoBotao="Ver Energia">
         </app-card>
-
       </div>
 
-
-      <!-- CARD 4 -->
+      <!-- CARD 4: CÁLCULOS GERAIS -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/animes.jpg"
-          tituloCard="Anime Zone"
-          textoCorpo="Novas temporadas, batalhas épicas e histórias que conquistaram uma geração."
-          textoBotao="Ver animes">
+          imagePathCard="assets/images/calculos.jpg"
+          tituloCard="Central de Cálculos"
+          textoCorpo="Ferramenta completa para inserir dados e alterar cálculos de forma dinâmica."
+          textoBotao="Aceder Cálculos">
         </app-card>
-
       </div>
 
-
-      <!-- CARD 5 -->
+      <!-- CARD 5: LOGIN / BANCO DE DADOS -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/filmes.jpg"
-          tituloCard="Cinema Multiverse"
-          textoCorpo="Heróis, ficção científica, ação e os maiores universos das telas."
-          textoBotao="Ver filmes">
+          imagePathCard="assets/images/login.jpg"
+          tituloCard="Acesso e Cadastro"
+          textoCorpo="Faça login com sua conta básica para sincronizar os dados com o banco."
+          textoBotao="Entrar no Sistema">
         </app-card>
-
       </div>
 
-
-      <!-- CARD 6 -->
+      <!-- CARD 6: SOBRE O PROJETO -->
       <div class="col-12 col-sm-6 col-lg-4">
-
         <app-card
-          imagePathCard="assets/images/series.jpg"
-          tituloCard="Series Hub"
-          textoCorpo="As séries que estão dominando os streamings e as redes sociais."
-          textoBotao="Ver séries">
+          imagePathCard="assets/images/sobre.jpg"
+          tituloCard="Sobre o Projeto"
+          textoCorpo="Conheça os objetivos do Projeto Integrador e a equipe por trás da plataforma."
+          textoBotao="Saiba Mais">
         </app-card>
-
       </div>
 
     </div>
 
   </div>
-
 </section>

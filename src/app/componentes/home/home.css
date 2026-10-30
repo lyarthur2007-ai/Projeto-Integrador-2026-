@@ -1,4 +1,4 @@
-.hero {
+/*.hero {
   min-height: 420px;
 
   display: flex;
@@ -21,4 +21,56 @@
 .text-info {
   text-shadow:
     0 0 15px rgba(69, 234, 255, 0.35);
+}*/
+
+.hero {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(
+      circle at 80% 40%,
+      rgba(217, 56, 41, 0.35), /* Vermelho principal com transparência */
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 107, 53, 0.2), /* Alaranjado com transparência */
+      transparent 30%
+    ),
+    #080816; /* Fundo escuro elegante */
+}
+
+.text-orange {
+  color: #ff6b35;
+  text-shadow: 0 0 15px rgba(255, 107, 53, 0.35);
+}
+
+.badge-custom {
+  background-color: rgba(255, 107, 53, 0.15);
+  color: #ff8c42;
+  border: 1px solid rgba(255, 107, 53, 0.3);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.btn-primary-custom {
+  background-color: #d93829; /* Vermelho principal */
+  border-color: #d93829;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: #b02619; /* Vermelho mais escuro */
+  border-color: #b02619;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.bg-content {
+  background-color: #0b0b1a; /* Fundo contínuo combinando com o hero */
 }
